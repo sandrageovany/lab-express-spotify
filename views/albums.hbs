@@ -1,0 +1,9 @@
+<div class="container">
+    <h2> Albums for: {{albums.0.artists.[0].name}}</h2>
+    <div class="row">
+        {{#each albums}}
+        {{>album}}
+        {{/each}}
+
+    </div>
+</div>
